@@ -22,4 +22,33 @@
 
 # SWOT Analysis
 ![swot analysis](https://github.com/Ambikacl/Mini_project_ltts/blob/main/1_Requirements/swot%20analysis.JPG)
+
+
+
+
 # 4W&#39;s and 1&#39;H
+
+## Who:
+*   This project can be used by school or collecge students.
+
+## What:
+*   It converts measured quantity in one unit for.
+
+## When:
+*   When people want to know the given value in another form of value.
+
+## Where:
+*   It can be implemented in caluculators.
+
+## How:
+*   The system will help in converting quantity in one form of unit to another form of unit without changing their original value.
+
+# Detail requirements(To be Done)
+## High Level Requirements:
+--- TBD in Tabular Format 
+-- ID | Description | Status (Implemented/Future)
+
+
+##  Low level Requirements:
+--- TBD in Tabular Format 
+-- ID | Description | Status (Implemented/Future)
