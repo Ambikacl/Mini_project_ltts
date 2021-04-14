@@ -8,7 +8,8 @@ Conversion of units Benefits and Features.
 
 ## Benefits
 #### The benefits of unit conversion are:
-              •	Knowing the units of measurement that correspond with a number give so much more information than a digit sitting there by itself.
+              •	Knowing the units of measurement that correspond with a number give so much more information
+                than a digit sitting there by itself.
               •	Easy to use
               •	Standard naming convention
               •	Avoids errors
