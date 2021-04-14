@@ -21,4 +21,5 @@
 
 
 # SWOT Analysis
-![swot analysis]
+![swot analysis](https://github.com/Ambikacl/Mini_project_ltts/blob/main/1_Requirements/swot%20analysis.JPG)
+# 4W&#39;s and 1&#39;H
