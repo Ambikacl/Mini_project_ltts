@@ -1,7 +1,8 @@
 # Requirements
 
 # System and Integration requirements:
-	The program shall be written in standard C, as compiled by the GNU C compiler. The program shall use only standard C library functions. The program shall be usable on any system which supports the compiler, and shall not require any particular hardware or software. System must have 4GB or above ram.
+	The program shall be written in standard C, as compiled by the GNU C compiler.
+	The program shall use only standard C library functions. The program shall be usable on any system which supports the compiler, and shall not require any particular hardware or software. System must have 4GB or above ram.
 
 # Interface requirements:
 	There are no existing external data bases or files that will be needed by this program and human interface.
