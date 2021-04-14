@@ -1,3 +1,4 @@
-# Mini_project_ltts
-mini project repository:-
-program to convert one form unit to another form unit. For eg. temperature conversion from degree Celsius to kelvin or vice versa
+# Project Information
+
+* Add a brief discription about the project
+* Add the information about extra folders or files added
