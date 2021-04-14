@@ -20,3 +20,5 @@
 	The application must be scalable i.e., it would work with large numbers.
 
 
+# SWOT Analysis
+![swot analysis]
