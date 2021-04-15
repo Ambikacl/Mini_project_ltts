@@ -12,8 +12,7 @@
 #ifndef __CONVERSION_H__
 #define __CONVERSION_H__
 
-#include<stdio.h>
-#include<stdlib.h>
+
 /**
  * @brief Funtion for temperature conversion from one form of unit to another form of unit
  * 
