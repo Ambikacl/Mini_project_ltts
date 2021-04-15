@@ -2,8 +2,7 @@ int numsys(int ch,int num1)
 {
 	if(ch==1)
 	{
-		int binary_val, decimal_val = 0, base = 1, rem;
-		binary_val=num1;
+		int binary_val=0, decimal_val = 0, base = 1, rem=0;
 		while (num1 > 0)
 		{
 			rem=num1%10;
