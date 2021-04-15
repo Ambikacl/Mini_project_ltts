@@ -36,3 +36,6 @@ Conversion of units Benefits and Features.
 
 # contribution check
   [![Contribution Check - Git Inspector](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml)
+
+# c-cpp 
+ [![C/C++ CI - Build Status](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/c-cpp.yml)
