@@ -1,22 +1,20 @@
-# Name of the project
-PROJ_NAME = Converter.exe
+PROJ_NAME = 	Converter
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-# Output directory
 
-# All source code files
-SRC =src/temp.c\
+SRC = src/temp.c\
 src/length.c\
 src/weight.c\
 src/numsys.c\
 src/percentage.c
 
-Conv_SRC = test_converter.c
+hos_SRC = test_conversion.c
 
-TEST_SRC = test/test_converter.c\
-unity/unity.c
+TEST_SRC = test/test_conversion.c\
+unity/unity.c\
+main_p.c
 
-INC_H = inc 
+INC_H = inc
 INC_T = unity\
 test
 
@@ -31,10 +29,11 @@ else
 	  EXEC = out
    endif
 endif
+
 .PHONY: run clean test doc all
 
 all:
-	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+	gcc -I $(INC_H) $(SRC) trans_m.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 	
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
@@ -43,24 +42,24 @@ test:
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 coverage:
-	cp test/test.c .
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
+	cp test/trans_t.c .
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c trans_t.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(Conv_SRC)
+	gcov -a $(hos_SRC)
 	$(RM) *.$(EXEC)
 	
 	
-	$(RM) test.c
+	$(RM) trans_t.c
 
 
 cppcheck:
-	cppcheck --enable=all $(SRC) main.c
+	cppcheck --enable=all $(SRC) trans_m.c
 debug:
-	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
+	gcc -I $(INC_H) $(SRC) trans_m.c -g -o $(PROJ_NAME).$(EXEC)
 	gdb $(PROJ_NAME).$(EXEC)
 
-valgrind:
-	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
+#valgrind:
+#	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
 
 
 clean:
