@@ -1,3 +1,4 @@
+#include "conversion.h"
 float length(int ch,float num)
 {
     float f=0;
