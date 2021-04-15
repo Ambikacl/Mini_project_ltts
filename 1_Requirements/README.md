@@ -43,12 +43,3 @@
 ## How:
 *   The system will help in converting quantity in one form of unit to another form of unit without changing their original value.
 
-# Detail requirements(To be Done)
-## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
-
-
-##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
