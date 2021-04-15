@@ -33,3 +33,6 @@ Conversion of units Benefits and Features.
 
 # dynamic-analysis valgrind
    [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/dynamic-code-quality.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/dynamic-code-quality.yml)
+
+# contribution check
+  [![Contribution Check - Git Inspector](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml)
