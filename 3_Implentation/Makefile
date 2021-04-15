@@ -8,7 +8,7 @@ src/weight.c\
 src/numsys.c\
 src/percentage.c
 
-hos_SRC = test_converter.c
+conv_SRC = test_converter.c
 
 TEST_SRC = test/test_converter.c\
 unity/unity.c\
@@ -16,7 +16,7 @@ main_p.c
 
 INC_H = Inc
 INC_T = unity
-INC_TE=test
+INC_TE = test
 
 ifdef OS
    RM = del 
@@ -43,9 +43,9 @@ test:
 
 coverage:
 	cp test/test_converter.c .
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) -I $(INC_TE) unity/unity.c test/test_converter.c main.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) -I $(INC_TE) unity/unity.c test/test_converter.c main_p.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(hos_SRC)
+	gcov -a $(conv_SRC)
 	$(RM) *.$(EXEC)
 	
 	
