@@ -1,3 +1,4 @@
+#include "conversion.h"
 float temp(int ch,float num)
 {
     float f1=0,f2=0;
