@@ -1,6 +1,6 @@
 float temp(int ch,float num)
 {
-    float f1,f2;
+    float f1=0,f2=0;
     const float k=273.15;
 	if(ch>3 || ch<1)
 	{
