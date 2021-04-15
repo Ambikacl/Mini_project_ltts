@@ -5,8 +5,7 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 # Output directory
 
 # All source code files
-SRC =main_p.c\
-src/temp.c\
+SRC =src/temp.c\
 src/length.c\
 src/weight.c\
 src/numsys.c\
