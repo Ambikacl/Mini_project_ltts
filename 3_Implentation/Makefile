@@ -12,12 +12,12 @@ src/weight.c\
 src/numsys.c\
 src/percentage.c
 
-Bank_SRC = test_converter.c
+Conv_SRC = test_converter.c
 
 TEST_SRC = test/test_converter.c\
 unity/unity.c
 
-INC_H = inc
+INC_H = inc test
 INC_T = unity
 
 $(PROJECT_NAME) : $(SRC) 
@@ -49,7 +49,7 @@ coverage:
 	cp test/test.c .
 	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(Bank_SRC)
+	gcov -a $(Conv_SRC)
 	$(RM) *.$(EXEC)
 	
 	
