@@ -14,9 +14,9 @@ TEST_SRC = test/test_converter.c\
 unity/unity.c\
 main_p.c
 
-INC_H = inc
-INC_T = unity\
-test
+INC_H = Inc
+INC_T = unity
+INC_TE=test
 
 ifdef OS
    RM = del 
@@ -38,18 +38,18 @@ all:
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
 test:
-	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	gcc -I $(INC_H) -I $(INC_T) -I $(INC_TE) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 coverage:
-	cp test/test_converter.c .
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test_converter.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
+	cp test/trans_converter.c .
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) -I $(INC_TE) unity/unity.c test/test_converter.c main.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(hos_SRC)
 	$(RM) *.$(EXEC)
 	
 	
-	$(RM) test_converter.h
+	$(RM) test_converter.c
 
 
 cppcheck:
