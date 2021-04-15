@@ -27,3 +27,6 @@ Conversion of units Benefits and Features.
 
 # unity test
  [![Unit Testing - Unity](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/unity.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/unity.yml)
+
+# CI Coverage
+   [![CI-Coverage](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/code-coverage.yml)
