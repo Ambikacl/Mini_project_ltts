@@ -1,3 +1,4 @@
+#include "conversion.h"
 float percentage(int ch,int num1)
 {
     float percent=0;
