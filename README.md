@@ -25,19 +25,20 @@ Conversion of units Benefits and Features.
        • It must be finite
        • It must be real
 
-# unity test
+
+# Build
+
+ [![C/C++ CI - Build Status](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/c-cpp.yml)
+
+# Coverage
+
+ [![Code Quality - Static Code - Cppcheck](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/cppcheck.yml)
+  [![CI-Coverage](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/code-coverage.yml)
+   [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/dynamic-code-quality.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/dynamic-code-quality.yml)
+  
+# Unity
+
  [![Unit Testing - Unity](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/unity.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/unity.yml)
 
-# CI Coverage
-   [![CI-Coverage](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/code-coverage.yml)
-
-# dynamic-analysis valgrind
-   [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/dynamic-code-quality.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/dynamic-code-quality.yml)
-
-# contribution check
-  [![Contribution Check - Git Inspector](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml)
-
-# code-quality static code
- [![Code Quality - Static Code - Cppcheck](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/cppcheck.yml)
-# c-cpp 
- [![C/C++ CI - Build Status](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/c-cpp.yml)
+# [Git Inspector](using github.io option)
+[![Contribution Check - Git Inspector](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml)
