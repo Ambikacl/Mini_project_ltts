@@ -20,4 +20,10 @@ INC = -Iinc\
 
 $(PROJECT_NAME) : $(SRC) 
 	gcc  $(INC) $(SRC) -o $(PROJECT_NAME)
+	
+run: $(PROJECT_NAME)
+	$(PROJECT_MAKE)
+	
+clean :
+	del \q *.exe
 
