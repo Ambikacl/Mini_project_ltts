@@ -1,3 +1,4 @@
+#include "conversion.h"
 float weight(int ch,float num)
 {
 	if(ch>2 || ch<1)
