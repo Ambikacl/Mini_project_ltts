@@ -30,3 +30,6 @@ Conversion of units Benefits and Features.
 
 # CI Coverage
    [![CI-Coverage](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/code-coverage.yml)
+
+# dynamic-analysis valgrind
+   [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/dynamic-code-quality.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/dynamic-code-quality.yml)
