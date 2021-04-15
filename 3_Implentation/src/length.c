@@ -1,7 +1,7 @@
 float length(int ch,float num)
 {
-    float f;
-	float Feet;
+    float f=0;
+	float Feet=0;
 	if(ch>2 || ch<1)
 	{
 		return 0;
