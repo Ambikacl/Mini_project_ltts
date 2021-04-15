@@ -17,7 +17,7 @@ Conv_SRC = test_converter.c
 TEST_SRC = test/test_converter.c\
 unity/unity.c
 
-INC_H = inc test
+INC_H = inc 
 INC_T = unity
 
 $(PROJECT_NAME) : $(SRC) 
