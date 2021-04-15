@@ -21,9 +21,6 @@ INC_H = inc
 INC_T = unity\
 test
 
-$(PROJECT_NAME) : $(SRC) 
-	gcc  $(INC) $(SRC) -o $(PROJECT_NAME)
-
 ifdef OS
    RM = del 
    FixPath = $(subst /,\,$1)
