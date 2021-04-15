@@ -1,8 +1,8 @@
 #include "conversion.h"
 
 int main(){
-int choice,ch,num1;
-float num;
+int choice=0,ch=0,num1=0;
+float num=0;
 while(1)
 {
 printf("Press 1 to convert temperature units(c,F,k).\n");
