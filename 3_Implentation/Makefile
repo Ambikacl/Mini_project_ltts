@@ -18,7 +18,8 @@ TEST_SRC = test/test_converter.c\
 unity/unity.c
 
 INC_H = inc 
-INC_T = unity
+INC_T = unity\
+test
 
 $(PROJECT_NAME) : $(SRC) 
 	gcc  $(INC) $(SRC) -o $(PROJECT_NAME)
