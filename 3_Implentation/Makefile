@@ -42,7 +42,7 @@ test:
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 coverage:
-	cp test/trans_converter.c .
+	cp test/test_converter.c .
 	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) -I $(INC_TE) unity/unity.c test/test_converter.c main.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(hos_SRC)
