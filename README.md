@@ -1,29 +1,14 @@
-# Project Information
+# Unit Conversion factor
 
 ## Introduction
 A unit conversion expresses the same property as a different unit of measurement. A conversion factor is a number used to change one set of units to another, by multiplying or dividing. When a conversion is necessary, the appropriate conversion factor to an equal value must be used. For example, to convert inches to feet, the appropriate conversion value is 12 inches equal 1 foot. Unit conversion is very important because the rest of the world other than three countries uses the metric system. So, converting units is important in science because it uses the metric system.
 
-## Research
-Conversion of units Benefits and Features.
-
-## Benefits
-#### The benefits of unit conversion are:
-     • Easy to use
-     • Standard naming convention
-     • Avoids errors
-     • Help to show another person the exact amount you have
-
-## Features
-#### The features of the application are:
+### The conversions performed are:
       • Temperature conversion
       • Length conversion
       • Weight conversion
       • Number system conversion
       • Percentage calculation
-              
-## Certain assumptions:
-       • It must be finite
-       • It must be real
 
 
 # Build
@@ -42,3 +27,29 @@ Conversion of units Benefits and Features.
 
 # [Git Inspector](using github.io option)
 [![Contribution Check - Git Inspector](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/arc-gitinspector.yml)
+
+
+## Folder structure
+
+<table style="width:100%">
+  <tr>
+    <th>Folder</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>1_Requirements</td>
+    <td>Documents detailing requirements and research</td>
+  </tr>
+  <tr>
+    <td>2_Design</td>
+    <td>Documents specifying design details</td>
+  </tr>
+  <tr>
+    <td>3_Implementation</td>
+    <td>All code and documentation</td>
+  </tr>
+  <tr>
+    <td>4_TestPlan</td>
+    <td>Documents with test plans and procedures</td>
+  </tr>
+  </table>
