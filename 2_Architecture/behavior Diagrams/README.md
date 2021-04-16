@@ -4,5 +4,5 @@
 
 
 ## Low Level Design
-### ![LowLevelStructuralDiagram](https://github.com/Ambikacl/Mini_project_ltts/blob/main/2_Architecture/behavior%20Diagrams/behvioral_L_l.JPG)
+### ![LowLevelStructuralDiagram](https://github.com/Ambikacl/Mini_project_ltts/blob/main/2_Architecture/behavior%20Diagrams/Behavioral%20low%20level%20block%20digram.JPG)
 
