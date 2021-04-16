@@ -1,4 +1,11 @@
 #include "conversion.h"
+/**
+ * @brief This function caluculate the pecentage
+ * 
+ * @param ch 
+ * @param num1 
+ * @return float 
+ */
 float percentage(int ch,int num1)
 {
     float percent=0;
