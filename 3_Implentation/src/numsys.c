@@ -1,4 +1,11 @@
 #include "conversion.h"
+/**
+ * @brief This is a function which converts binary value to decimal.
+ * 
+ * @param ch 
+ * @param num1 
+ * @return int 
+ */
 int numsys(int ch,int num1)
 {
 	if(ch==1)
