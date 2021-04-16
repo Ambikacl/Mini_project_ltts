@@ -1,4 +1,4 @@
-# Unit Conversion factor
+# Unit Conversion factors
 
 ## Introduction
 A unit conversion expresses the same property as a different unit of measurement. A conversion factor is a number used to change one set of units to another, by multiplying or dividing. When a conversion is necessary, the appropriate conversion factor to an equal value must be used. For example, to convert inches to feet, the appropriate conversion value is 12 inches equal 1 foot. Unit conversion is very important because the rest of the world other than three countries uses the metric system. So, converting units is important in science because it uses the metric system.
