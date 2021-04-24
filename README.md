@@ -13,6 +13,7 @@ A unit conversion expresses the same property as a different unit of measurement
 
 # Build
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/16f16631b9804a5b927cf4ba0e607b08)](https://app.codacy.com/gh/Ambikacl/Mini_project_ltts?utm_source=github.com&utm_medium=referral&utm_content=Ambikacl/Mini_project_ltts&utm_campaign=Badge_Grade_Settings)
  [![C/C++ CI - Build Status](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Ambikacl/Mini_project_ltts/actions/workflows/c-cpp.yml)
 
 # Coverage
